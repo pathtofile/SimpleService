@@ -20,7 +20,12 @@ Either use the services UI, or `net.exe` as Administrator:
 ```bash
 net start SimpleService
 ```
-Confirm it is working either using the Event Log UI, or PowerShell:
+Confirm it is working using `sc`:
+```bash
+sc query SimpleService
+```
+
+To get runtime event logs use either the Event Log UI, or PowerShell:
 ```powershell
 Get-WinEvent -LogName "SimpleServiceLog"
 ```
