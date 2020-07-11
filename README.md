@@ -14,7 +14,7 @@ Use Visual Studio's `Developer Command Prompt`, and run:
 InstallUtil path/to/SimpleService.exe
 ```
 
-# Start Service
+# Start
 Either use the services UI, or `net.exe` as Administrator:
 ```bash
 net start SimpleService
@@ -24,7 +24,7 @@ Confirm it is working either using the Event Log UI, or PowerShell:
 Get-WinEvent -LogName "SimpleServiceLog"
 ```
 
-# Stop Service
+# Stop
 Either use the services UI, or `net.exe` as Administrator:
 ```bash
 net stop SimpleService
