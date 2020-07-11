@@ -4,7 +4,7 @@ Very Simple C# Service for research purposes
 # Alter
 Main code Logic in `SimpleService.cs`.
 
-To alter the User the service runs, the service description, etc., see the Designer view of `ProjectInstaller.cs`.
+To alter the user the service runs, the service description, etc., see the Designer view of `ProjectInstaller.cs`.
 
 # Build
 I Used Visual Studio 2019 and .NET 4.8
